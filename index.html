@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>Fullscreen Layout with Page Transitions</title>
+		<meta name="description" content="Fullscreen Layout with Page Transitions" />
+		<meta name="keywords" content="fullscreen layout, boxes, responsive, page transitions, css transitions, jquery, portfolio, template" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico"> 
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<script src="js/modernizr.custom.js"></script>
+<style> 
+.muneeb {
+    width: 500px;
+    height: 50px;
+    background-color: red;
+    position: relative;
+    -webkit-animation-name: example; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    -webkit-animation-delay: 2s; /* Chrome, Safari, Opera */
+    animation-name: example;
+    animation-duration: 4s;
+    animation-delay: 2s;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+</style>	
+</head>
+	<body>
+		<div class="container">	
+			<div id="bl-main" class="bl-main">
+				<section> 
+					<div class="bl-box">
+						<h2 class="bl-icon bl-icon-about">About</h2>
+					</div>
+					<div class="bl-content">
+						<h2 class="muneeb">About AKMS corp.</h2>
+<p> Hey guys! <br> Welcome to AKMS, a company that helps one out in all kind of tech issues. We are consultants to all kind of technological problems that one can face. We are there for you !  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+ </p>
+										</div>
+					<span class="bl-icon bl-icon-close"></span>
+				</section>
+				<section id="bl-work-section">
+					<div class="bl-box">
+						<h2 class="bl-icon bl-icon-works">Works</h2>
+					</div>
+					<div class="bl-content">
+						<h2 class="muneeb">My Works</h2>
+						<p> 1. Designed a Home automation system to control electric appliances. <br> 2. Devised a Milk boilometer that alarms from over boiling of milk  <br> 3. Made a Pac-man game on console.</p>
+
+						
+						
+					</div>
+					<span class="bl-icon bl-icon-close"></span>
+				</section>
+				<section>
+					<div class="bl-box">
+						<h2 class="bl-icon bl-icon-blog">Blog</h2>
+					</div>
+					<div class="bl-content">
+						
+						<article>
+							<h2 class="muneeb">Objective:</h2>
+<p> Finance internship where outstanding communication skills, relevant work experience, and education can
+
+be utilized.</p>
+
+
+<h2>Qualification:</h2>
+
+<table class="id1"  border="1" width= "50%" >
+<col width="40">
+<col width="10">
+<col width="30">
+<col width="20">
+<tr>
+	<th>Education</th>
+	<th>Institution</th>
+	<th>Year</th>
+	<th>Remarks</th>
+</tr>
+<tr>
+	<td>BSCS</td>
+	<td>SEECS</td>
+	<td>2016</td>
+	<td>Average</td>
+</tr>
+<tr>
+	<td>Fsc</td>
+	<td>Punjab collage</td>
+	<td>2011</td>
+	<td>86%</td>
+</tr>
+<tr>
+	<td>Matric</td>
+	<td>M.M.H.S.</td>
+	<td>2009</td>
+	<td>91%</td>
+</tr>
+
+</table>
+
+<h2>Skills:</h2>
+<ul>
+<li>Programming languages: Java, C++ and C</li>
+<li> Proficient in MS office</li>
+<li>Consult in IT</li>
+</ul>
+
+<h2>Projects:</h2>
+<ul>
+<li>Designed a Home automation system to control electric appliances.</li>
+<li>Devised a Milk boilometer that alarms from over boiling of milk.</li>
+<li>Made a Pac-man game on console./li>
+</ul>
+
+<h2>Extra-Curriculars:</h2>
+<ul>
+<li>Champion in marathon race for consecutive three years at Plascrug School, Aberystwyth.</li>
+<li>Participated in Pakistan Idol auditions.</li>
+<li>Participated in Nust E-gaming competition.</li>
+</ul>
+
+						</article>
+					</div>
+					<span class="bl-icon bl-icon-close"></span>
+				</section>
+				<section>
+					<div class="bl-box">
+						<h2 class="bl-icon bl-icon-contact">Contact</h2>
+<div style="margin: 15px 0px 0px; display: inline-block; text-align: center; width: 200px;"><div style="display: inline-block; padding: 2px 4px; margin: 0px 0px 5px; border: 1px solid rgb(204, 204, 204); text-align: center; background-color: rgb(255, 255, 255);"><a href="" style="text-decoration: none; font-size: 13px; color: rgb(0, 0, 0);"> </a></div><script type="text/javascript" src="http://localtimes.info/clock.php?&cp1_Hex=000000&cp2_Hex=FFFFFF&cp3_Hex=000000&fwdt=200&ham=0&hbg=0&hfg=0&sid=0&mon=0&wek=0&wkf=0&sep=0&widget_number=1000"></script></div>
+					</div>
+					<div class="bl-content">
+						<h2 class="muneeb">Contact Me</h2>
+					<p> Phone Number: +92323-6161692 <br> Email address: 11bscsmsuleman@seecs.edu.pk <br> Home address: Gujrat,Punjab,Pakistan </p>
+
+					</div>
+					<span class="bl-icon bl-icon-close"></span>
+				</section>
+									<nav>
+						<span class="bl-next-work">&gt; Next Project</span>
+						<span class="bl-icon bl-icon-close"></span>
+					</nav>
+				</div>
+			</div>
+		</div><!-- /container -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script src="js/boxlayout.js"></script>
+		<script>
+			$(function() {
+				Boxlayout.init();
+			});
+		</script>
+	</body>
+</html>
